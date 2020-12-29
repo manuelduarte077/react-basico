@@ -12,7 +12,26 @@ class ListaProductos extends Component {
     ],
   };
 
+
+  componentDidMount() {
+    console.log(1)
+  }
+
+  componentWilMount() {
+    console.log(2)
+  }
+
+  componentWillUpdate() {
+    console.log(3)
+  }
+
+  componentWillUnmount() {
+    console.log(4)
+  }
+
   render() {
+
+    console.log(5)
     const { productos } = this.state;
 
     return (
