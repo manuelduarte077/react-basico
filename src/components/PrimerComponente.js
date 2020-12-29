@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class PrimerComponente extends Component {
-  render() {
-    return ( <h1>Hola Mundo</h1>  )
-  }
-}
+
+
+const PrimerComponente = () => {
+  return <h1>Hola Mundo</h1>;
+};
